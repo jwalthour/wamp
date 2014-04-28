@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project RobotController">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/Antonio/workspace/RobotController.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="robot.RobotController"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/Users/Antonio/workspace/RobotController/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Antonio/workspace/RobotController/lib/rabbitmq-java-client-bin-2.8.4/rabbitmq-client.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Antonio/workspace/RobotController/lib/google-gson-2.2.1/gson-2.2.1-javadoc.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Antonio/workspace/RobotController/lib/google-gson-2.2.1/gson-2.2.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Antonio/workspace/RobotController/lib/RXTXcomm.jar"/>
+        </jar>
+    </target>
+</project>

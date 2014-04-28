@@ -1,0 +1,6 @@
+{
+  "AmqpServer":"192.168.2.4",
+  "Verbose":True,
+  "MotorSetExchange":"motor_set",
+  SerialPortDescriptor:"COM3"
+}
